@@ -1,0 +1,5 @@
+version=1
+title=UdderlyUpToDate Build 42
+description=Quits the server automatically after a configurable warning period when updates are detected, which are checked on a configurable schedule.
+tags=
+visibility=0
