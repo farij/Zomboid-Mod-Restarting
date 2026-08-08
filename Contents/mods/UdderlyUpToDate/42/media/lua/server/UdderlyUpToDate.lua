@@ -30,7 +30,7 @@ function UdderlyUpToDate.rebootServer()
 		Events.OnTickEvenPaused.Add(function()
 			local secondsLeft = delayTimestamp - getTimestamp()
 			if secondsLeft <= 0 then
-				print("[UdderlyUpToDate] Quitting...")
+				print("[UdderlyUpToDate] Quitting process now. An external restart wrapper / host auto-restart is required to bring the server back up.")
 				getCore():quit()
 			else
 				if lastSecondLogged > secondsLeft then

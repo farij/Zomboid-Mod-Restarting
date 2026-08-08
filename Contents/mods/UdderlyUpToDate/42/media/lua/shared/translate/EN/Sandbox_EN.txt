@@ -1,7 +1,7 @@
 Sandbox_EN = {
 	Sandbox_UdderlyUpToDate = "Udderly Up to Date",
-	Sandbox_UdderlyUpToDate_RestartDelayMinutes = "Restart Delay (Minutes)",
-	Sandbox_UdderlyUpToDate_RestartDelayMinutes_tooltip = "The amount of time the server will give users as a warning before quitting, in minutes. Set to 0 if you want it to only check/restart when the server is empty.",
+	Sandbox_UdderlyUpToDate_RestartDelayMinutes = "Quit Warning Delay (Minutes)",
+	Sandbox_UdderlyUpToDate_RestartDelayMinutes_tooltip = "Minutes of warning before the server SAVES AND QUITS after a Workshop update is detected. Set to 0 to only quit once the server is empty. Bringing the process back up requires an external restart wrapper or host panel restart-on-exit.",
 	Sandbox_UdderlyUpToDate_WorkshopPollingIntervalMinutes = "Workshop Polling Interval (Minutes)",
 	Sandbox_UdderlyUpToDate_WorkshopPollingIntervalMinutes_tooltip = "The amount of time the server will wait between checking for workshop updates, in minutes.",
 	Sandbox_UdderlyUpToDate_QuitDelaySeconds = "Quit Delay (Seconds)",
