@@ -1,4 +1,4 @@
 name=UdderlyUpToDate Build 42
 poster=preview.png
 id=UdderlyUpToDate
-description=Quits the server automatically after a configurable warning period when updates are detected, which are checked on a configurable schedule. Compatible with Build 41 and Build 42.
+description=Detects Workshop updates, warns players, then saves and quits the dedicated server. An external auto-restart wrapper (or host panel restart-on-exit) is required to bring the server back up - the game cannot restart itself from a mod.
