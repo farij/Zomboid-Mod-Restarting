@@ -10,6 +10,9 @@
 # 2. Edit SERVER_SCRIPT / RESTART_DELAY_SECONDS below as needed
 # 3. chmod +x start-server-with-auto-restart.sh
 # 4. Start the server with THIS file
+#
+# Note: Linux start scripts usually exit when the server quits. If yours waits
+# for a keypress at the end, remove that read/pause or the loop will hang.
 # =============================================================================
 
 set -u
