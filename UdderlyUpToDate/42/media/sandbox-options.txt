@@ -1,0 +1,31 @@
+VERSION = 1,
+
+option UdderlyUpToDate.RestartDelayMinutes = 
+{
+	type = double, 
+	min = 0,
+	max = 60,
+	default = 5,
+	page = UdderlyUpToDate, 
+	translation = UdderlyUpToDate_RestartDelayMinutes,
+}
+
+option UdderlyUpToDate.WorkshopPollingIntervalMinutes = 
+{
+	type = double, 
+	min = 1,
+	max = 1440,
+	default = 15.0,
+	page = UdderlyUpToDate, 
+	translation = UdderlyUpToDate_WorkshopPollingIntervalMinutes,
+}
+
+option UdderlyUpToDate.QuitDelaySeconds =
+{
+	type = double,
+	min = 15,
+	max = 270,
+	default = 15,
+	page = UdderlyUpToDate,
+	translation = UdderlyUpToDate_QuitDelaySeconds,
+}

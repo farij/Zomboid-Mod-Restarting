@@ -1,0 +1,4 @@
+name=Udderly Up To Date
+poster=preview.png
+id=UdderlyUpToDate
+description=Quits the server automatically after a configurable warning period when updates are detected, which are checked on a configurable schedule. Compatible with Build 41 and Build 42.
